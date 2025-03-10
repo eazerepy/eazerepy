@@ -1,4 +1,13 @@
-# ZerePy
+# eazerepy
+
+### Usage
+
+```sh
+poetry install --extras server
+poetry run python main.py --server --host 0.0.0.0 --port 8000
+# test
+poetry run python evm-client.py
+```
 
 ZerePy is an open-source Python framework designed to let you deploy your own agents on X, powered by multiple LLMs.
 

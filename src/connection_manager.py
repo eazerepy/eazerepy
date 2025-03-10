@@ -176,6 +176,10 @@ class ConnectionManager:
         try:
             connection = self.connections[connection_name]
 
+            print("connection", connection)
+            print("action_name", action_name)
+            print("params", params)
+
             if not connection.is_configured():
                 logging.error(
                     f"\nError: Connection '{connection_name}' is not configured"

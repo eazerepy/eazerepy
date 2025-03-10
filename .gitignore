@@ -6,6 +6,7 @@ __pycache__/
 
 # CONFIG FILES
 .env
+.env.test
 twitter_config.json
 
 # AGENTS
@@ -18,3 +19,7 @@ agents/*.json
 # macOS
 .DS_Store
 .codegpt
+
+
+# nodejs
+node_modules/

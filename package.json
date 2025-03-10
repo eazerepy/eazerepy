@@ -1,0 +1,9 @@
+{
+  "name": "easyzerepy",
+  "version": "0.0.1",
+  "module": "esnext",
+  "type": "module",
+  "dependencies": {
+    "ethers": "^6.13.5"
+  }
+}
