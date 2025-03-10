@@ -9,13 +9,6 @@ __pycache__/
 .env.test
 twitter_config.json
 
-# AGENTS
-agents/*.json
-
-# Include example agent and general config
-!agents/example.json
-!agents/general.json
-
 # macOS
 .DS_Store
 .codegpt
